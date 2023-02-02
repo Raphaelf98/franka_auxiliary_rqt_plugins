@@ -1,0 +1,26 @@
+<library path="lib/libfranka_reset">
+  <class name="franka_reset/ResetButtonPlugin" type="franka_reset::ResetButtonPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Auxiliary Plugins to work with Franka Robot
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <group>
+        <label>Franka Auxiliary Plugins</label>
+        <icon type="theme">folder</icon>
+        <statustip>Auxiliary Plugins to work with Franka Robot.</statustip>
+      </group>
+      <label>Reset Button</label>
+      <icon type="theme">process-stop</icon>
+      <statustip>Reset button to recover Franka Robot from error state.</statustip>
+    </qtgui>
+  </class>
+</library>
+

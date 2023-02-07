@@ -1,6 +1,4 @@
-/*
-  Copyright 2016 Lucas Walter
-*/
+
 #ifndef FRANKA_RESET_RESET_BUTTON_PLUGIN_H
 #define FRANKA_RESET_RESET_BUTTON_PLUGIN_H
 
@@ -57,7 +55,10 @@ private:
 
   bool set_text_;
   bool error_;
+  bool user_stop_reset;
+  bool user_stop_error;
 
 };
+
 }  // namespace franka_reset
 #endif  // FRANKA_RESET_BUTTON_PLUGIN_H
